@@ -1,0 +1,15 @@
+.product-slider {
+  --swiper-pagination-color: #000000;
+  --swiper-pagination-progressbar-bg-color: #b3b3b3;
+  --swiper-pagination-progressbar-size: 8px;
+}
+
+.product-slider.swiper-horizontal > .swiper-pagination-progressbar {
+  top: auto;
+  bottom: 0;
+  left: 50%;
+  width: min(360px, 60%);
+  transform: translateX(-50%);
+  border-radius: 9999px;
+  overflow: hidden;
+}
